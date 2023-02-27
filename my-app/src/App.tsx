@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <Rating />
+      <Accordion />
     </div>
   );
 }
@@ -27,4 +28,31 @@ function Star(){
     <div>Star</div>
   )
 }
+
+function Accordion(){
+  return(
+    <div>
+      <AccordionTitle />
+      <AccordionBody />
+    </div>
+  )
+}
+
+function AccordionTitle(){
+  return <h3>меню</h3>
+}
+
+function AccordionBody(){
+  return(
+    <div>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </div>
+  )
+}
+
+
 export default App;
