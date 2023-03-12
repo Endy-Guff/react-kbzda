@@ -1,0 +1,25 @@
+.wrapper{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+}
+
+.on,
+.off{
+    padding: 5px;
+    border: 2px solid #000;
+}
+
+.on{
+    background: green;
+}
+
+.light{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    background-color: green;
+}
